@@ -40,6 +40,8 @@ Contact.prototype.fullName = function() {
   return this.firstName + " " + this.lastName;
 };
 
+Contact.prototype.update = function(id) {}
+
   
 //UserInterface Logic
 $(document).ready(function() {
